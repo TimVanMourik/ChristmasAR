@@ -3,10 +3,12 @@
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs='trackingMethod: best; debugUIEnabled:false'>
   <a-assets>
-    <a-asset-item id="chistmas-model" src="https://raw.githubusercontent.com/TimVanMourik/ChristmasAR/master/data/Christmas.dae" crossOrigin="anonymous"></a-asset-item>
+    <a-asset-item id="tree-model" src="https://raw.githubusercontent.com/TimVanMourik/ChristmasAR/master/data/Tree.dae" crossOrigin="anonymous"></a-asset-item>
+    <a-asset-item id="text-model" src="https://raw.githubusercontent.com/TimVanMourik/ChristmasAR/master/data/MerryChristmas.dae" crossOrigin="anonymous"></a-asset-item>
   </a-assets>
     <a-anchor hit-testing-enabled='true'>
-      <a-collada-model src="#chistmas-model"  position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-collada-model>
+      <a-collada-model src="#tree-model"  position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-collada-model>
+      <a-collada-model src="#text-model"  position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-collada-model>
     </a-anchor>
 	  <a-camera-static/>
   </a-scene>
