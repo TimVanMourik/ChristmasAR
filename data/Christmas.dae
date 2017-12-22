@@ -5,12 +5,16 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
     </contributor>
-    <created>2017-12-22T10:34:29</created>
-    <modified>2017-12-22T10:34:29</modified>
+    <created>2017-12-22T10:58:14</created>
+    <modified>2017-12-22T10:58:14</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_images/>
+  <library_images>
+    <image id="branch_png" name="branch_png">
+      <init_from>branch.png</init_from>
+    </image>
+  </library_images>
   <library_effects>
     <effect id="gold-effect">
       <profile_COMMON>
