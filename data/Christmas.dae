@@ -12,7 +12,7 @@
   </asset>
   <library_images>
     <image id="branch_png" name="branch_png">
-      <init_from>/D:/GitHub/ChristmasAR/data/branch-black-background.png</init_from>
+      <init_from>branch-black-background.png</init_from>
     </image>
   </library_images>
   <library_effects>
