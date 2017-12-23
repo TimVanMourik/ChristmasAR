@@ -7,9 +7,12 @@
     <a-asset-item id="text-model" src="https://raw.githubusercontent.com/TimVanMourik/ChristmasAR/master/data/MerryChristmas.dae" crossOrigin="anonymous"></a-asset-item>
   </a-assets>
     <a-anchor hit-testing-enabled='true'>
-      <a-collada-model src="#tree-model"  position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-collada-model>
-      <a-collada-model src="#text-model"  position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-collada-model>
+      <a-collada-model src="#tree-model"  position="0 0 0" scale="1 1 1" rotation="0 0 0">
+	  </a-collada-model>
+	  <a-collada-model src="#text-model"  position="0 0 0" scale="1 1 1">
+		<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+	  </a-collada-model>
     </a-anchor>
-	  <a-camera-static/>
+	<a-camera-static/>
   </a-scene>
 </body>
